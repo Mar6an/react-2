@@ -15,15 +15,15 @@ function App() {
     <>
       
       
-      <Titulo nombre="MARIO ANTONINO" />
+      {/* <Titulo nombre="MARIO ANTONINO" />
       <Navbar />
       <Footer />
       <Home />
-      <Header />
+      <Header /> */}
       <CardPizza />
-      <Sidebar />
+      {/* <Sidebar />
       <Login />
-      <Register />
+      <Register /> */}
       
     </>
   )
