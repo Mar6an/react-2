@@ -1,0 +1,70 @@
+/* Reset básico */
+
+  
+  body {
+    display: flex;
+    justify-content: center; /* centra horizontalmente */
+    align-items: center;     /* centra verticalmente */
+    min-height: 100vh;       /* altura mínima de la ventana */
+    flex-direction: column;  /* para apilar elementos en columna */
+  }
+  
+  /* Contenedor principal */
+  p {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  /* Títulos */
+  h1, h2, h3 {
+    margin-bottom: 1rem;
+    color: #222;
+  }
+  
+  /* Botones */
+  button {
+    background-color: #2c2d27;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    background-color: #c1d023;
+  }
+  
+  /* Inputs y formularios */
+  input, select, textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  /* Cards (opcional) */
+  .card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .container {
+      padding: 1rem;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  

@@ -9,6 +9,7 @@ import { Sidebar } from "./components/Sidebar/Sidebar"
 import Titulo from "./components/Titulo/titulo"
 
 
+
 function App() {
 
   return (
@@ -18,9 +19,9 @@ function App() {
       {/* <Titulo nombre="MARIO ANTONINO" />
       <Navbar />
       <Footer />
-      <Home />
-      <Header /> */}
       <CardPizza />
+      <Header /> */}
+      <Home />
       {/* <Sidebar />
       <Login />
       <Register /> */}
